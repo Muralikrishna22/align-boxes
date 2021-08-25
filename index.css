@@ -1,0 +1,42 @@
+.bg-container {
+  font-family: Roboto;
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: bree serif;
+  margin-right: 20px;
+}
+.small-box {
+  height: 15vh;
+  width: 15vw;
+  background-color: #fbbf24;
+}
+.medium-box {
+  height: 25vh;
+  width: 25vw;
+  background-color: #38bdf8;
+}
+.large-box {
+  height: 35vh;
+  width: 35vw;
+  background-color: #ec4899;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
